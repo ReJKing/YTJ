@@ -7,7 +7,20 @@
 		<key>YTJ.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AEF956C62077586F000100EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEF956DE2077586F000100EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

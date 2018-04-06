@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEF956CC2077586F000100EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF956CB2077586F000100EA /* AppDelegate.m */; };
-		AEF956CF2077586F000100EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF956CE2077586F000100EA /* ViewController.m */; };
-		AEF956D22077586F000100EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF956D02077586F000100EA /* Main.storyboard */; };
+		AE2B6DE320778E05007EEAEE /* MoiveDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B6DE220778E05007EEAEE /* MoiveDetailHeadView.m */; };
+		AE2B6DE520778ED1007EEAEE /* MoiveDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2B6DE420778ED1007EEAEE /* MoiveDetailHeadView.xib */; };
+		AE2B6DEB2077A539007EEAEE /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B6DEA2077A539007EEAEE /* UIImage+Blur.m */; };
+		AE2B6DEE2077B679007EEAEE /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B6DED2077B679007EEAEE /* UserInfoViewController.m */; };
+		AEF6568520775DF000809A3D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6568420775DF000809A3D /* APIClient.m */; };
+		AEF6568820775EC300809A3D /* HitMoivesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6568720775EC300809A3D /* HitMoivesRequest.m */; };
+		AEF6568B2077630200809A3D /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6568A2077630200809A3D /* RequestManager.m */; };
+		AEF6568E20776A0800809A3D /* MoivesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6568D20776A0800809A3D /* MoivesTableViewCell.m */; };
+		AEF656912077733A00809A3D /* MoiveDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF656902077733A00809A3D /* MoiveDetailTableViewController.m */; };
 		AEF956D42077586F000100EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF956D32077586F000100EA /* Assets.xcassets */; };
 		AEF956D72077586F000100EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF956D52077586F000100EA /* LaunchScreen.storyboard */; };
 		AEF956DA2077586F000100EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF956D92077586F000100EA /* main.m */; };
 		AEF956E42077586F000100EA /* YTJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF956E32077586F000100EA /* YTJUITests.m */; };
+		AEF956F320775958000100EA /* Merchant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF956F220775958000100EA /* Merchant.storyboard */; };
+		AEF957212077597F000100EA /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957042077597F000100EA /* MineViewController.m */; };
+		AEF957222077597F000100EA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957052077597F000100EA /* SettingViewController.m */; };
+		AEF957232077597F000100EA /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF957062077597F000100EA /* Mine.storyboard */; };
+		AEF957242077597F000100EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9570B2077597F000100EA /* ViewController.m */; };
+		AEF957252077597F000100EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9570C2077597F000100EA /* AppDelegate.m */; };
+		AEF957262077597F000100EA /* MoivesObj.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957122077597F000100EA /* MoivesObj.m */; };
+		AEF957272077597F000100EA /* CinemaObj.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957132077597F000100EA /* CinemaObj.m */; };
+		AEF957282077597F000100EA /* MoivesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957152077597F000100EA /* MoivesCollectionViewCell.m */; };
+		AEF957292077597F000100EA /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF957162077597F000100EA /* BannerView.m */; };
+		AEF9572A2077597F000100EA /* CinemaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9571A2077597F000100EA /* CinemaCell.m */; };
+		AEF9572B2077597F000100EA /* Movies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF9571B2077597F000100EA /* Movies.storyboard */; };
+		AEF9572C2077597F000100EA /* MoivesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9571E2077597F000100EA /* MoivesViewController.m */; };
+		AEF9572D2077597F000100EA /* Information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF957202077597F000100EA /* Information.storyboard */; };
+		AEF9573020775A36000100EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF9572E20775A36000100EA /* Main.storyboard */; };
+		D30FF63DF8DF6E4F1B8BE668 /* Pods_YTJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278C84DBF67D959A4045E6ED /* Pods_YTJ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +49,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		278C84DBF67D959A4045E6ED /* Pods_YTJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2B6DE120778E05007EEAEE /* MoiveDetailHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoiveDetailHeadView.h; sourceTree = "<group>"; };
+		AE2B6DE220778E05007EEAEE /* MoiveDetailHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoiveDetailHeadView.m; sourceTree = "<group>"; };
+		AE2B6DE420778ED1007EEAEE /* MoiveDetailHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoiveDetailHeadView.xib; sourceTree = "<group>"; };
+		AE2B6DE92077A539007EEAEE /* UIImage+Blur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		AE2B6DEA2077A539007EEAEE /* UIImage+Blur.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		AE2B6DEC2077B679007EEAEE /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		AE2B6DED2077B679007EEAEE /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		AEF6568320775DF000809A3D /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		AEF6568420775DF000809A3D /* APIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		AEF6568620775EC300809A3D /* HitMoivesRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitMoivesRequest.h; sourceTree = "<group>"; };
+		AEF6568720775EC300809A3D /* HitMoivesRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitMoivesRequest.m; sourceTree = "<group>"; };
+		AEF656892077630200809A3D /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		AEF6568A2077630200809A3D /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		AEF6568C20776A0800809A3D /* MoivesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoivesTableViewCell.h; sourceTree = "<group>"; };
+		AEF6568D20776A0800809A3D /* MoivesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoivesTableViewCell.m; sourceTree = "<group>"; };
+		AEF6568F2077733A00809A3D /* MoiveDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoiveDetailTableViewController.h; sourceTree = "<group>"; };
+		AEF656902077733A00809A3D /* MoiveDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoiveDetailTableViewController.m; sourceTree = "<group>"; };
 		AEF956C72077586F000100EA /* YTJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEF956CA2077586F000100EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEF956CB2077586F000100EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEF956CD2077586F000100EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEF956CE2077586F000100EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEF956D12077586F000100EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEF956D32077586F000100EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF956D62077586F000100EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEF956D82077586F000100EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +75,33 @@
 		AEF956DF2077586F000100EA /* YTJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF956E32077586F000100EA /* YTJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTJUITests.m; sourceTree = "<group>"; };
 		AEF956E52077586F000100EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF956F220775958000100EA /* Merchant.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Merchant.storyboard; sourceTree = "<group>"; };
+		AEF957022077597F000100EA /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		AEF957032077597F000100EA /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		AEF957042077597F000100EA /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		AEF957052077597F000100EA /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		AEF957062077597F000100EA /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		AEF9570A2077597F000100EA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF9570B2077597F000100EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF9570C2077597F000100EA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF9570D2077597F000100EA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF957102077597F000100EA /* MoivesObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoivesObj.h; sourceTree = "<group>"; };
+		AEF957112077597F000100EA /* CinemaObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaObj.h; sourceTree = "<group>"; };
+		AEF957122077597F000100EA /* MoivesObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoivesObj.m; sourceTree = "<group>"; };
+		AEF957132077597F000100EA /* CinemaObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaObj.m; sourceTree = "<group>"; };
+		AEF957152077597F000100EA /* MoivesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoivesCollectionViewCell.m; sourceTree = "<group>"; };
+		AEF957162077597F000100EA /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		AEF957172077597F000100EA /* CinemaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaCell.h; sourceTree = "<group>"; };
+		AEF957182077597F000100EA /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		AEF957192077597F000100EA /* MoivesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoivesCollectionViewCell.h; sourceTree = "<group>"; };
+		AEF9571A2077597F000100EA /* CinemaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaCell.m; sourceTree = "<group>"; };
+		AEF9571B2077597F000100EA /* Movies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Movies.storyboard; sourceTree = "<group>"; };
+		AEF9571D2077597F000100EA /* MoivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoivesViewController.h; sourceTree = "<group>"; };
+		AEF9571E2077597F000100EA /* MoivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoivesViewController.m; sourceTree = "<group>"; };
+		AEF957202077597F000100EA /* Information.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Information.storyboard; sourceTree = "<group>"; };
+		AEF9572F20775A36000100EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2F4F576D1A56FD12D9FD246 /* Pods-YTJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTJ/Pods-YTJ.debug.xcconfig"; sourceTree = "<group>"; };
+		F599BC99BA2C4A14425953F5 /* Pods-YTJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTJ/Pods-YTJ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30FF63DF8DF6E4F1B8BE668 /* Pods_YTJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +123,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81E7540F4759E15D977C0E4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F4F576D1A56FD12D9FD246 /* Pods-YTJ.debug.xcconfig */,
+				F599BC99BA2C4A14425953F5 /* Pods-YTJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E3C5491392392C6E3FC496F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278C84DBF67D959A4045E6ED /* Pods_YTJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE2B6DE62077A48B007EEAEE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B6DE92077A539007EEAEE /* UIImage+Blur.h */,
+				AE2B6DEA2077A539007EEAEE /* UIImage+Blur.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AEF956BE2077586F000100EA = {
 			isa = PBXGroup;
 			children = (
 				AEF956C92077586F000100EA /* YTJ */,
 				AEF956E22077586F000100EA /* YTJUITests */,
 				AEF956C82077586F000100EA /* Products */,
+				81E7540F4759E15D977C0E4E /* Pods */,
+				9E3C5491392392C6E3FC496F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +172,17 @@
 		AEF956C92077586F000100EA /* YTJ */ = {
 			isa = PBXGroup;
 			children = (
-				AEF956CA2077586F000100EA /* AppDelegate.h */,
-				AEF956CB2077586F000100EA /* AppDelegate.m */,
-				AEF956CD2077586F000100EA /* ViewController.h */,
-				AEF956CE2077586F000100EA /* ViewController.m */,
-				AEF956D02077586F000100EA /* Main.storyboard */,
+				AEF9573D20775DB4000100EA /* Common */,
+				AEF9571F2077597F000100EA /* Information */,
+				AEF957072077597F000100EA /* Login */,
+				AEF957082077597F000100EA /* Main */,
+				AEF957002077597F000100EA /* Mine */,
+				AEF9570E2077597F000100EA /* Movies */,
+				AEF957092077597F000100EA /* Other */,
+				AEF956F120775958000100EA /* Merchant */,
 				AEF956D32077586F000100EA /* Assets.xcassets */,
 				AEF956D52077586F000100EA /* LaunchScreen.storyboard */,
+				AEF9572E20775A36000100EA /* Main.storyboard */,
 				AEF956D82077586F000100EA /* Info.plist */,
 				AEF956D92077586F000100EA /* main.m */,
 			);
@@ -103,6 +198,134 @@
 			path = YTJUITests;
 			sourceTree = "<group>";
 		};
+		AEF956F120775958000100EA /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+				AEF956F220775958000100EA /* Merchant.storyboard */,
+			);
+			path = Merchant;
+			sourceTree = "<group>";
+		};
+		AEF957002077597F000100EA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				AEF957012077597F000100EA /* Controller */,
+				AEF957062077597F000100EA /* Mine.storyboard */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AEF957012077597F000100EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEF957022077597F000100EA /* MineViewController.h */,
+				AEF957032077597F000100EA /* SettingViewController.h */,
+				AEF957042077597F000100EA /* MineViewController.m */,
+				AEF957052077597F000100EA /* SettingViewController.m */,
+				AE2B6DEC2077B679007EEAEE /* UserInfoViewController.h */,
+				AE2B6DED2077B679007EEAEE /* UserInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEF957072077597F000100EA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AEF957082077597F000100EA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AEF957092077597F000100EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9570A2077597F000100EA /* AppDelegate.h */,
+				AEF9570B2077597F000100EA /* ViewController.m */,
+				AEF9570C2077597F000100EA /* AppDelegate.m */,
+				AEF9570D2077597F000100EA /* ViewController.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AEF9570E2077597F000100EA /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9570F2077597F000100EA /* Model */,
+				AEF957142077597F000100EA /* View */,
+				AEF9571B2077597F000100EA /* Movies.storyboard */,
+				AEF9571C2077597F000100EA /* Controllers */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		AEF9570F2077597F000100EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEF957102077597F000100EA /* MoivesObj.h */,
+				AEF957112077597F000100EA /* CinemaObj.h */,
+				AEF957122077597F000100EA /* MoivesObj.m */,
+				AEF957132077597F000100EA /* CinemaObj.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEF957142077597F000100EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEF957192077597F000100EA /* MoivesCollectionViewCell.h */,
+				AEF957152077597F000100EA /* MoivesCollectionViewCell.m */,
+				AEF957182077597F000100EA /* BannerView.h */,
+				AEF957162077597F000100EA /* BannerView.m */,
+				AEF957172077597F000100EA /* CinemaCell.h */,
+				AEF9571A2077597F000100EA /* CinemaCell.m */,
+				AEF6568C20776A0800809A3D /* MoivesTableViewCell.h */,
+				AEF6568D20776A0800809A3D /* MoivesTableViewCell.m */,
+				AE2B6DE120778E05007EEAEE /* MoiveDetailHeadView.h */,
+				AE2B6DE220778E05007EEAEE /* MoiveDetailHeadView.m */,
+				AE2B6DE420778ED1007EEAEE /* MoiveDetailHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEF9571C2077597F000100EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9571D2077597F000100EA /* MoivesViewController.h */,
+				AEF9571E2077597F000100EA /* MoivesViewController.m */,
+				AEF6568F2077733A00809A3D /* MoiveDetailTableViewController.h */,
+				AEF656902077733A00809A3D /* MoiveDetailTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AEF9571F2077597F000100EA /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				AEF957202077597F000100EA /* Information.storyboard */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		AEF9573D20775DB4000100EA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B6DE62077A48B007EEAEE /* Extension */,
+				AEF656892077630200809A3D /* RequestManager.h */,
+				AEF6568A2077630200809A3D /* RequestManager.m */,
+				AEF6568320775DF000809A3D /* APIClient.h */,
+				AEF6568420775DF000809A3D /* APIClient.m */,
+				AEF6568620775EC300809A3D /* HitMoivesRequest.h */,
+				AEF6568720775EC300809A3D /* HitMoivesRequest.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEF956E82077586F000100EA /* Build configuration list for PBXNativeTarget "YTJ" */;
 			buildPhases = (
+				F6F3244CB09F301A25A82653 /* [CP] Check Pods Manifest.lock */,
 				AEF956C32077586F000100EA /* Sources */,
 				AEF956C42077586F000100EA /* Frameworks */,
 				AEF956C52077586F000100EA /* Resources */,
+				978A1F8DFE8FE5DDD5ED8268 /* [CP] Embed Pods Frameworks */,
+				D2489D88889DB52EA38419F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +411,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2B6DE520778ED1007EEAEE /* MoiveDetailHeadView.xib in Resources */,
+				AEF9573020775A36000100EA /* Main.storyboard in Resources */,
 				AEF956D72077586F000100EA /* LaunchScreen.storyboard in Resources */,
 				AEF956D42077586F000100EA /* Assets.xcassets in Resources */,
-				AEF956D22077586F000100EA /* Main.storyboard in Resources */,
+				AEF956F320775958000100EA /* Merchant.storyboard in Resources */,
+				AEF9572D2077597F000100EA /* Information.storyboard in Resources */,
+				AEF957232077597F000100EA /* Mine.storyboard in Resources */,
+				AEF9572B2077597F000100EA /* Movies.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +431,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		978A1F8DFE8FE5DDD5ED8268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YTJ/Pods-YTJ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTJ/Pods-YTJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2489D88889DB52EA38419F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTJ/Pods-YTJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F3244CB09F301A25A82653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEF956C32077586F000100EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF956CF2077586F000100EA /* ViewController.m in Sources */,
+				AEF957272077597F000100EA /* CinemaObj.m in Sources */,
+				AEF6568E20776A0800809A3D /* MoivesTableViewCell.m in Sources */,
+				AEF957262077597F000100EA /* MoivesObj.m in Sources */,
+				AE2B6DEB2077A539007EEAEE /* UIImage+Blur.m in Sources */,
+				AEF957292077597F000100EA /* BannerView.m in Sources */,
+				AEF6568B2077630200809A3D /* RequestManager.m in Sources */,
 				AEF956DA2077586F000100EA /* main.m in Sources */,
-				AEF956CC2077586F000100EA /* AppDelegate.m in Sources */,
+				AEF9572A2077597F000100EA /* CinemaCell.m in Sources */,
+				AEF957212077597F000100EA /* MineViewController.m in Sources */,
+				AE2B6DE320778E05007EEAEE /* MoiveDetailHeadView.m in Sources */,
+				AE2B6DEE2077B679007EEAEE /* UserInfoViewController.m in Sources */,
+				AEF6568820775EC300809A3D /* HitMoivesRequest.m in Sources */,
+				AEF957242077597F000100EA /* ViewController.m in Sources */,
+				AEF656912077733A00809A3D /* MoiveDetailTableViewController.m in Sources */,
+				AEF6568520775DF000809A3D /* APIClient.m in Sources */,
+				AEF9572C2077597F000100EA /* MoivesViewController.m in Sources */,
+				AEF957222077597F000100EA /* SettingViewController.m in Sources */,
+				AEF957252077597F000100EA /* AppDelegate.m in Sources */,
+				AEF957282077597F000100EA /* MoivesCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,20 +533,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AEF956D02077586F000100EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEF956D12077586F000100EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEF956D52077586F000100EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AEF956D62077586F000100EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF9572E20775A36000100EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF9572F20775A36000100EA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -355,27 +658,37 @@
 		};
 		AEF956E92077586F000100EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F4F576D1A56FD12D9FD246 /* Pods-YTJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W75G372W8C;
 				INFOPLIST_FILE = YTJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = K.YTJ;
+				PRODUCT_BUNDLE_IDENTIFIER = JKing.YTJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AEF956EA2077586F000100EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F599BC99BA2C4A14425953F5 /* Pods-YTJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W75G372W8C;
 				INFOPLIST_FILE = YTJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = K.YTJ;
+				PRODUCT_BUNDLE_IDENTIFIER = JKing.YTJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
