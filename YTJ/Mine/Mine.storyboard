@@ -172,7 +172,7 @@
                     <navigationItem key="navigationItem" title="个人头像" id="Dvo-1H-USQ">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="wwN-cw-CmW">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="g3B-Qt-bb1">
-                                <rect key="frame" x="-23" y="-15" width="22" height="22"/>
+                                <rect key="frame" x="337" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
                         </barButtonItem>
@@ -555,7 +555,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="我的" id="BRR-nA-z2S">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="edit" id="Vk7-DR-vur">
+                        <barButtonItem key="rightBarButtonItem" image="icon_myPage_setw" style="plain" id="Vk7-DR-vur">
                             <connections>
                                 <segue destination="CGf-dk-cSL" kind="show" id="oaA-oR-3W0"/>
                             </connections>
@@ -865,6 +865,26 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="guC-9e-wMz">
+                                        <rect key="frame" x="0.0" y="167" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="guC-9e-wMz" id="cik-eG-WIN">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英文" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LY-Qg-SsP">
+                                                    <rect key="frame" x="20" y="13" width="31" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8LY-Qg-SsP" firstAttribute="leading" secondItem="cik-eG-WIN" secondAttribute="leading" constant="20" id="BSj-tq-hVP"/>
+                                                <constraint firstItem="8LY-Qg-SsP" firstAttribute="centerY" secondItem="cik-eG-WIN" secondAttribute="centerY" id="izg-Zf-u8S"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -898,6 +918,7 @@
     <resources>
         <image name="01" width="1730" height="936"/>
         <image name="2" width="30" height="30"/>
+        <image name="icon_myPage_setw" width="22" height="22"/>
         <image name="t1" width="268" height="335"/>
     </resources>
 </document>

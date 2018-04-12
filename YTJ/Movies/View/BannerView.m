@@ -7,6 +7,7 @@
 //
 
 #import "BannerView.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 
 
@@ -103,5 +104,18 @@
     NSInteger index =  roundf(point.x / scrollView.bounds.size.width);
     self.pageConterol.currentPage = index;
     NSLog(@"%ld",index);
+}
+    
+-(void)setimageArrayWithAdverObjArray:(NSArray *)adverObjArray{
+    for(NSInteger i = 0; i < adverObjArray.count; i++){
+      
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH * i, 0, SCREEN_WIDTH, self.bounds.size.height)];
+        AdvertObj *obj = adverObjArray[i];
+        [imageView sd_setImageWithURL:[NSURL URLWithString:obj.img_url] placeholderImage:[UIImage imageNamed:@"b1"]];
+        
+        [self.scrollView addSubview:imageView];
+    }
+    self.scrollView.contentSize = CGSizeMake(SCREEN_WIDTH * adverObjArray.count-1, 0);
+    self.pageConterol.numberOfPages = adverObjArray.count;
 }
 @end

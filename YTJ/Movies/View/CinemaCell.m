@@ -25,9 +25,9 @@
 - (void)setObj:(CinemaObj *)obj{
     
     _obj = obj;
-    self.cinemaNameLable.text = _obj.name;
-    self.addressLable.text = _obj.address;
-    self.priceLable.text = _obj.price;
+    self.cinemaNameLable.text = _obj.cinema_name;
+    self.addressLable.text = _obj.cinema_address;
+    self.priceLable.text = [NSString stringWithFormat:@"%@MOP起",_obj.low_price];
 }
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated{
     [super setHighlighted:highlighted animated:animated];

@@ -60,8 +60,7 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
 
-    MoivesObj *obj =self.dataSource[indexPath.row];
-    NSLog(@"%@",obj.name);
+    MovieObj *obj =self.dataSource[indexPath.row];
     [self.delegate onclickCollectionItem:obj];
     
 }

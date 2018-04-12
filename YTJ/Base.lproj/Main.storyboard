@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="1" green="0.1583212296" blue="0.1541635992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="pLT-Ui-7xa" kind="relationship" relationship="viewControllers" id="71K-1l-zMD"/>
@@ -33,7 +34,10 @@
         <scene sceneID="ViC-wE-UtJ">
             <objects>
                 <viewControllerPlaceholder storyboardName="Merchant" id="BUc-Sm-4Mg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="NbD-PA-t7a"/>
+                    <tabBarItem key="tabBarItem" title="iii" image="arrow.png" largeContentSizeImage="arrow.png" badgeValue="99" selectedImage="b1" id="NbD-PA-t7a">
+                        <color key="badgeColor" red="1" green="0.1583212296" blue="0.1541635992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="6" vertical="6"/>
+                    </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aX5-TY-ghO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,4 +74,8 @@
             <point key="canvasLocation" x="342" y="-509"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow.png" width="15" height="40"/>
+        <image name="b1" width="960" height="280"/>
+    </resources>
 </document>

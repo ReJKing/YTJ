@@ -11,7 +11,7 @@
 
 @protocol MoivesTableViewCellDelegate<NSObject>
 @required
-- (void)onclickCollectionItem:(MoivesObj *)obj;
+- (void)onclickCollectionItem:(MovieObj *)obj;
 
 @end
 

@@ -24,24 +24,25 @@
 + (instancetype)moiveDetailHeadView{
     return [[NSBundle mainBundle] loadNibNamed:@"MoiveDetailHeadView" owner:nil options:nil].firstObject;
 }
-- (void)setObj:(MoivesObj *)obj{
+- (void)setObj:(MovieObj *)obj{
     _obj = obj;
-    _nameLabel.text =obj.name;
-    [_pictureImageView sd_setImageWithURL:[NSURL URLWithString:obj.playbillUrl]
+    _nameLabel.text =obj.movieName;
+    [_pictureImageView sd_setImageWithURL:[NSURL URLWithString:obj.imgUrl]
                               placeholderImage:[UIImage imageNamed:@"m1.png"]];
-    [_bgImageView sd_setImageWithURL:[NSURL URLWithString:obj.playbillUrl] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+    [_bgImageView sd_setImageWithURL:[NSURL URLWithString:obj.imgUrl] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
        
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"%@",[NSThread currentThread]);
            _bgImageView.image = [UIImage blurryImage:image withBlurLevel:1.0];
         });
     }];
     
     
 
-    CGFloat grade = [obj.grade floatValue];
-    _ratingLabel.text = [NSString stringWithFormat:@"%.1f分",grade];
-    _genresLabel.text = [obj.genres componentsJoinedByString:@"/"];
+//    _ratingLabel.text = [NSString stringWithFormat:@"%@分",obj.grade];
+    _charactorLabel.text = [NSString stringWithFormat:@"%@",obj.charactor];
+    _genresLabel.text = obj.style;
     _directorLabel.text = obj.director;
+    _timeLengthLabel.text = [NSString stringWithFormat:@"%ld分钟",(long)obj.duration];
+ 
 }
 @end

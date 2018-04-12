@@ -7,19 +7,23 @@
 //
 
 #import "APIClient.h"
-#define API_SERVER_URL @"https://api.douban.com"
+#define API_SERVER_URL @"http://120.76.79.54:8081"
 
 @implementation APIClient
 + (instancetype)sharedClient {
     static APIClient *_sharedClient = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedClient = [[APIClient alloc] initWithBaseURL:[NSURL URLWithString:API_SERVER_URL]];
-        
+        NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
+        sessionConfig.timeoutIntervalForRequest = 10.0f;
+        sessionConfig.timeoutIntervalForResource = 20.0f;
+        _sharedClient = [[APIClient alloc] initWithBaseURL:[NSURL URLWithString:API_SERVER_URL] sessionConfiguration:sessionConfig];
+
         _sharedClient.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
         
-        _sharedClient.requestSerializer = [AFJSONRequestSerializer serializer];
-        _sharedClient.responseSerializer = [AFJSONResponseSerializer serializer];
+        _sharedClient.requestSerializer = [AFHTTPRequestSerializer serializer];
+//        _sharedClient.responseSerializer = [AFJSONResponseSerializer serializer];
+        [_sharedClient.requestSerializer setValue:@"Basic MTIzNDU2OjEyMzQ1Ng==" forHTTPHeaderField:@"Authorization"];
         
         
     });

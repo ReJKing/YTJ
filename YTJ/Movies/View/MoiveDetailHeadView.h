@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MoivesObj.h"
+#import "MovieObj.h"
 
 
 @interface MoiveDetailHeadView : UIView
@@ -37,6 +37,10 @@
  */
 @property (weak, nonatomic) IBOutlet UILabel *directorLabel;
 /*
+ *  演员
+ */
+@property (weak, nonatomic) IBOutlet UILabel *charactorLabel;
+/*
  *  电影时长
  */
 @property (weak, nonatomic) IBOutlet UILabel *timeLengthLabel;
@@ -45,7 +49,7 @@
  */
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
-@property (nonatomic,strong) MoivesObj *obj;
+@property (nonatomic,strong) MovieObj *obj;
 
 + (instancetype)moiveDetailHeadView;
 

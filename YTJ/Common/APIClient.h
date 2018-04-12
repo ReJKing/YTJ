@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFHTTPSessionManager.h"
+//#import "AFHTTPSessionManager.h"
+#import "AFNetworking.h"
 
 @interface APIClient : AFHTTPSessionManager
 

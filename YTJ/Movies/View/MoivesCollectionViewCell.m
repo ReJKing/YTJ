@@ -11,11 +11,10 @@
 
 @implementation MoivesCollectionViewCell
 
-- (void)setObj:(MoivesObj *)obj{
-     [self.playbillImageView sd_setImageWithURL:[NSURL URLWithString:obj.playbillUrl]
+- (void)setObj:(MovieObj *)obj{
+     [self.playbillImageView sd_setImageWithURL:[NSURL URLWithString:obj.imgUrl]
                                         placeholderImage:[UIImage imageNamed:@"m1.png"]];
-    self.nameLabel.text = obj.name;
-    CGFloat grade = [obj.grade floatValue];
-    self.gradeLabel.text = [NSString stringWithFormat:@"%.1f分",grade];
+    self.nameLabel.text = obj.movieName;
+    self.gradeLabel.text = [NSString stringWithFormat:@"%@分",obj.grade];
 }
 @end

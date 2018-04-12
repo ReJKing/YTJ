@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MoivesObj.h"
+#import "MovieObj.h"
 
 @interface MoivesCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *playbillImageView;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gradeLabel;
-@property (nonatomic,strong) MoivesObj *obj;
+@property (nonatomic,strong) MovieObj *obj;
 @end

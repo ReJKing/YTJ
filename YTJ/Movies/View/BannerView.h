@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AdvertObj.h"
 
 @interface BannerView : UIView
 @property (nonatomic,strong) UIScrollView *scrollView;
 @property (nonatomic,strong) UIPageControl *pageConterol;
 @property (nonatomic,strong) NSArray *imageArray;
 
-
+-(void)setimageArrayWithAdverObjArray:(NSArray *)adverObjArray;
 @end

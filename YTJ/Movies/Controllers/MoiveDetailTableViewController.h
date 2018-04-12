@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MoivesObj.h"
+#import "JKBaseTableViewController.h"
+#import "MovieObj.h"
 #import "MoiveDetailHeadView.h"
-@interface MoiveDetailTableViewController : UITableViewController
+@interface MoiveDetailTableViewController : JKBaseTableViewController
 @property (weak, nonatomic) IBOutlet UIView *headView;
-@property (nonatomic,strong) MoivesObj *moiveObj;
+@property (nonatomic,strong) MovieObj *movieObj;
 @end

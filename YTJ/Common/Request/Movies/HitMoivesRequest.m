@@ -13,7 +13,7 @@
 
 + (void)getHitMoivesComplete:(void(^)(id json,NSError *error))completion{
     
-    NSString *url = @"v2/movie/in_theaters";
+    NSString *url = @"api/cinema/hotmovies";
     [[APIClient sharedClient] POST:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  JSON) {
         if(completion){
             completion(JSON,nil);
